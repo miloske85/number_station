@@ -1,0 +1,27 @@
+// taken from http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  // Margin bottom by footer height
+  margin-bottom: 170px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // Set the fixed height of the footer here
+  height: 120px;
+  background-color: #222;
+  border-color: #080808;
+}
+
+//my addition
+//footer "falls apart" because of fixed height
+
+footer > div > div{
+  background-color: #222;
+}

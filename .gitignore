@@ -1,0 +1,38 @@
+#Codeigniter files
+application/cache/
+application/logs/
+application/third_party/
+application/hooks/
+application/helpers/
+application/language/
+application/libraries/
+application/migrations/
+
+#ci-phpunit-test
+application/tests/_ci_phpunit_test/
+application/tests/helpers/
+application/tests/hooks/
+application/tests/libraries/
+application/tests/mocks/
+
+#images and other things
+captcha/
+#not needed because this is compiled from less
+css/main.css
+css/font-awesome.min.css
+fonts/
+img/
+uploads/
+*.png
+*.jpg
+*.ico
+
+
+#'private' files
+less_compiler.json
+deploy*
+rpl_check*
+log.txt
+*description*
+todo.txt
+version_history.txt

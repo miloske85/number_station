@@ -1,0 +1,7 @@
+#Gitignore for js folder
+# 7/8/2015
+
+vendor/
+bootstrap.min.js
+collapse.js
+dropdown.js
