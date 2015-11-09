@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="CodeIgniter Application Test Suite" tests="71" assertions="161" failures="0" errors="0" time="1.590969">
-    <testsuite name="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" tests="8" assertions="26" failures="0" errors="0" time="0.502461">
-      <testcase name="test_indexAuth" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="7" assertions="4" time="0.325692"/>
-      <testcase name="test_list_users" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="13" assertions="3" time="0.053359"/>
-      <testcase name="test_list_messages" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="18" assertions="3" time="0.018450"/>
-      <testcase name="test_show_message" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="23" assertions="3" time="0.015467"/>
-      <testcase name="test_show_user" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="28" assertions="3" time="0.027969"/>
-      <testcase name="test_edit_messageGet" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="36" assertions="3" time="0.035195"/>
-      <testcase name="test_edit_userGet" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="44" assertions="3" time="0.013727"/>
-      <testcase name="test_deleteUncomfirmed" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="52" assertions="4" time="0.012602"/>
+  <testsuite name="CodeIgniter Application Test Suite" tests="71" assertions="161" failures="0" errors="0" time="1.271200">
+    <testsuite name="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" tests="8" assertions="26" failures="0" errors="0" time="0.209451">
+      <testcase name="test_indexAuth" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="7" assertions="4" time="0.062947"/>
+      <testcase name="test_list_users" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="13" assertions="3" time="0.042556"/>
+      <testcase name="test_list_messages" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="18" assertions="3" time="0.021434"/>
+      <testcase name="test_show_message" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="23" assertions="3" time="0.013499"/>
+      <testcase name="test_show_user" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="28" assertions="3" time="0.013581"/>
+      <testcase name="test_edit_messageGet" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="36" assertions="3" time="0.029819"/>
+      <testcase name="test_edit_userGet" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="44" assertions="3" time="0.013073"/>
+      <testcase name="test_deleteUncomfirmed" class="Admin_ap_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_ap_test.php" line="52" assertions="4" time="0.012542"/>
     </testsuite>
-    <testsuite name="Admin_iplog_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_iplog_test.php" tests="2" assertions="6" failures="0" errors="0" time="0.068054">
-      <testcase name="test_index" class="Admin_iplog_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_iplog_test.php" line="7" assertions="3" time="0.050008"/>
-      <testcase name="test_view_list" class="Admin_iplog_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_iplog_test.php" line="13" assertions="3" time="0.018046"/>
+    <testsuite name="Admin_iplog_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_iplog_test.php" tests="2" assertions="6" failures="0" errors="0" time="0.064467">
+      <testcase name="test_index" class="Admin_iplog_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_iplog_test.php" line="7" assertions="3" time="0.022687"/>
+      <testcase name="test_view_list" class="Admin_iplog_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_iplog_test.php" line="13" assertions="3" time="0.041780"/>
     </testsuite>
-    <testsuite name="Admin_search_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_search_test.php" tests="2" assertions="3" failures="0" errors="0" time="0.030242">
-      <testcase name="test_index" class="Admin_search_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_search_test.php" line="7" assertions="3" time="0.029659"/>
-      <testcase name="test_messagePost" class="Admin_search_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_search_test.php" line="12" assertions="0" time="0.000583"/>
+    <testsuite name="Admin_search_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_search_test.php" tests="2" assertions="3" failures="0" errors="0" time="0.018200">
+      <testcase name="test_index" class="Admin_search_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_search_test.php" line="7" assertions="3" time="0.017613"/>
+      <testcase name="test_messagePost" class="Admin_search_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Admin_search_test.php" line="12" assertions="0" time="0.000587"/>
     </testsuite>
-    <testsuite name="Ajax_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Ajax_test.php" tests="1" assertions="1" failures="0" errors="0" time="0.014490">
-      <testcase name="testRegirster" class="Ajax_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Ajax_test.php" line="5" assertions="1" time="0.014490"/>
+    <testsuite name="Ajax_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Ajax_test.php" tests="1" assertions="1" failures="0" errors="0" time="0.011618">
+      <testcase name="testRegirster" class="Ajax_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Ajax_test.php" line="5" assertions="1" time="0.011618"/>
     </testsuite>
-    <testsuite name="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" tests="3" assertions="9" failures="0" errors="0" time="0.031023">
-      <testcase name="test_tos" class="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" line="7" assertions="3" time="0.010358"/>
-      <testcase name="test_about" class="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" line="14" assertions="3" time="0.010141"/>
-      <testcase name="test_external_links" class="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" line="20" assertions="3" time="0.010524"/>
+    <testsuite name="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" tests="3" assertions="9" failures="0" errors="0" time="0.030167">
+      <testcase name="test_tos" class="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" line="7" assertions="3" time="0.009832"/>
+      <testcase name="test_about" class="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" line="14" assertions="3" time="0.010277"/>
+      <testcase name="test_external_links" class="Content_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Content_test.php" line="20" assertions="3" time="0.010058"/>
     </testsuite>
-    <testsuite name="Install_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Install_test.php" tests="1" assertions="4" failures="0" errors="0" time="0.005040">
-      <testcase name="test_index" class="Install_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Install_test.php" line="7" assertions="4" time="0.005040"/>
+    <testsuite name="Install_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Install_test.php" tests="1" assertions="4" failures="0" errors="0" time="0.005083">
+      <testcase name="test_index" class="Install_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Install_test.php" line="7" assertions="4" time="0.005083"/>
     </testsuite>
-    <testsuite name="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" tests="3" assertions="7" failures="0" errors="0" time="0.059252">
-      <testcase name="test_loginGet" class="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" line="7" assertions="3" time="0.011172"/>
-      <testcase name="test_loginWrongCredentials" class="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" line="13" assertions="4" time="0.047519"/>
-      <testcase name="test_loginGoodCredentials" class="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" line="19" assertions="0" time="0.000561"/>
+    <testsuite name="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" tests="3" assertions="7" failures="0" errors="0" time="0.180272">
+      <testcase name="test_loginGet" class="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" line="7" assertions="3" time="0.064626"/>
+      <testcase name="test_loginWrongCredentials" class="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" line="13" assertions="4" time="0.115045"/>
+      <testcase name="test_loginGoodCredentials" class="Login_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Login_test.php" line="19" assertions="0" time="0.000601"/>
     </testsuite>
-    <testsuite name="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" tests="7" assertions="28" failures="0" errors="0" time="0.188689">
-      <testcase name="test_index" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="7" assertions="3" time="0.014082"/>
-      <testcase name="test_postGet" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="16" assertions="3" time="0.025516"/>
-      <testcase name="test_postNoCaptcha" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="25" assertions="3" time="0.029101"/>
-      <testcase name="test_postPost" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="30" assertions="3" time="0.036128"/>
-      <testcase name="test_searchGet" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="38" assertions="4" time="0.011193"/>
-      <testcase name="test_searchPost" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="48" assertions="4" time="0.046865"/>
-      <testcase name="test_show_message" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="54" assertions="8" time="0.025804"/>
+    <testsuite name="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" tests="7" assertions="28" failures="0" errors="0" time="0.103452">
+      <testcase name="test_index" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="7" assertions="3" time="0.014238"/>
+      <testcase name="test_postGet" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="16" assertions="3" time="0.013433"/>
+      <testcase name="test_postNoCaptcha" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="25" assertions="3" time="0.012455"/>
+      <testcase name="test_postPost" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="30" assertions="3" time="0.013222"/>
+      <testcase name="test_searchGet" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="38" assertions="4" time="0.012324"/>
+      <testcase name="test_searchPost" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="48" assertions="4" time="0.015113"/>
+      <testcase name="test_show_message" class="Messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Messages_test.php" line="54" assertions="8" time="0.022667"/>
     </testsuite>
-    <testsuite name="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" tests="4" assertions="14" failures="0" errors="0" time="0.168791">
-      <testcase name="test_index" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="31" assertions="3" time="0.023598"/>
-      <testcase name="test_read_message" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="37" assertions="4" time="0.054421"/>
-      <testcase name="test_send_message" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="44" assertions="3" time="0.039736"/>
-      <testcase name="test_delete" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="49" assertions="4" time="0.051036"/>
+    <testsuite name="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" tests="4" assertions="14" failures="0" errors="0" time="0.078487">
+      <testcase name="test_index" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="31" assertions="3" time="0.022313"/>
+      <testcase name="test_read_message" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="37" assertions="4" time="0.020883"/>
+      <testcase name="test_send_message" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="44" assertions="3" time="0.014478"/>
+      <testcase name="test_delete" class="Private_messages_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Private_messages_test.php" line="49" assertions="4" time="0.020813"/>
     </testsuite>
-    <testsuite name="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" tests="5" assertions="19" failures="0" errors="0" time="0.133494">
-      <testcase name="test_show_user" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="35" assertions="4" time="0.018511"/>
-      <testcase name="test_list_users" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="41" assertions="4" time="0.016687"/>
-      <testcase name="test_avatar" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="47" assertions="4" time="0.025558"/>
-      <testcase name="test_change_pass" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="56" assertions="4" time="0.042175"/>
-      <testcase name="test_forgot_password" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="65" assertions="3" time="0.030563"/>
+    <testsuite name="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" tests="5" assertions="19" failures="0" errors="0" time="0.172845">
+      <testcase name="test_show_user" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="35" assertions="4" time="0.014897"/>
+      <testcase name="test_list_users" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="41" assertions="4" time="0.013274"/>
+      <testcase name="test_avatar" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="47" assertions="4" time="0.079509"/>
+      <testcase name="test_change_pass" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="56" assertions="4" time="0.038301"/>
+      <testcase name="test_forgot_password" class="Users_test" file="/var/www/dev/projects/number_station/application/tests/controllers/Users_test.php" line="65" assertions="3" time="0.026864"/>
     </testsuite>
-    <testsuite name="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" tests="8" assertions="11" failures="0" errors="0" time="0.044585">
-      <testcase name="testInsertMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="22" assertions="2" time="0.006761"/>
-      <testcase name="testSearchMessages" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="31" assertions="1" time="0.004208"/>
-      <testcase name="testGetMessages" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="36" assertions="1" time="0.004285"/>
-      <testcase name="testGetMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="42" assertions="1" time="0.005857"/>
-      <testcase name="testUpdateMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="52" assertions="2" time="0.006822"/>
-      <testcase name="testDeleteMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="69" assertions="2" time="0.007029"/>
-      <testcase name="testCountMessages" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="87" assertions="1" time="0.005249"/>
-      <testcase name="testCountMessageSearch" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="93" assertions="1" time="0.004373"/>
+    <testsuite name="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" tests="8" assertions="11" failures="0" errors="0" time="0.085487">
+      <testcase name="testInsertMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="22" assertions="2" time="0.020863"/>
+      <testcase name="testSearchMessages" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="31" assertions="1" time="0.004142"/>
+      <testcase name="testGetMessages" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="36" assertions="1" time="0.004253"/>
+      <testcase name="testGetMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="42" assertions="1" time="0.005493"/>
+      <testcase name="testUpdateMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="52" assertions="2" time="0.033817"/>
+      <testcase name="testDeleteMessage" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="69" assertions="2" time="0.008310"/>
+      <testcase name="testCountMessages" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="87" assertions="1" time="0.004200"/>
+      <testcase name="testCountMessageSearch" class="Messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Messages_model_test.php" line="93" assertions="1" time="0.004409"/>
     </testsuite>
-    <testsuite name="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" tests="8" assertions="8" failures="0" errors="0" time="0.092362">
-      <testcase name="testSendPm" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="11" assertions="1" time="0.025725"/>
-      <testcase name="testSelectMessage" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="17" assertions="1" time="0.003118"/>
-      <testcase name="testMarkPMasRead" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="23" assertions="1" time="0.005149"/>
-      <testcase name="testGetPrivateMessages" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="30" assertions="1" time="0.043237"/>
-      <testcase name="testGetPrivateMessage" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="36" assertions="1" time="0.003981"/>
-      <testcase name="testCountPrivateMessages" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="43" assertions="1" time="0.002640"/>
-      <testcase name="testGetSubject" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="49" assertions="1" time="0.003397"/>
-      <testcase name="testDelete" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="56" assertions="1" time="0.005115"/>
+    <testsuite name="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" tests="8" assertions="8" failures="0" errors="0" time="0.067143">
+      <testcase name="testSendPm" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="11" assertions="1" time="0.004900"/>
+      <testcase name="testSelectMessage" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="17" assertions="1" time="0.002992"/>
+      <testcase name="testMarkPMasRead" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="23" assertions="1" time="0.005133"/>
+      <testcase name="testGetPrivateMessages" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="30" assertions="1" time="0.020644"/>
+      <testcase name="testGetPrivateMessage" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="36" assertions="1" time="0.004010"/>
+      <testcase name="testCountPrivateMessages" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="43" assertions="1" time="0.002655"/>
+      <testcase name="testGetSubject" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="49" assertions="1" time="0.003308"/>
+      <testcase name="testDelete" class="Private_messages_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Private_messages_model_test.php" line="56" assertions="1" time="0.023502"/>
     </testsuite>
-    <testsuite name="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" tests="12" assertions="15" failures="0" errors="0" time="0.213990">
-      <testcase name="testGetIdFromUname" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="19" assertions="1" time="0.011011"/>
-      <testcase name="testGetUsername" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="25" assertions="1" time="0.010955"/>
-      <testcase name="testCheckExistingPassword" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="31" assertions="1" time="0.060828"/>
-      <testcase name="testGetAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="37" assertions="1" time="0.005797"/>
-      <testcase name="testListUsers" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="43" assertions="2" time="0.005973"/>
-      <testcase name="testGetUser" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="50" assertions="2" time="0.005980"/>
-      <testcase name="testCountUsers" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="57" assertions="2" time="0.005323"/>
-      <testcase name="testChangePassword" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="68" assertions="1" time="0.063990"/>
-      <testcase name="testUpdateAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="74" assertions="1" time="0.005959"/>
-      <testcase name="testSuccessUpdateAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="83" assertions="1" time="0.004565"/>
-      <testcase name="testDeleteAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="89" assertions="1" time="0.029030"/>
-      <testcase name="testSuccessDeleteAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="98" assertions="1" time="0.004579"/>
+    <testsuite name="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" tests="12" assertions="15" failures="0" errors="0" time="0.166030">
+      <testcase name="testGetIdFromUname" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="19" assertions="1" time="0.004678"/>
+      <testcase name="testGetUsername" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="25" assertions="1" time="0.004748"/>
+      <testcase name="testCheckExistingPassword" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="31" assertions="1" time="0.038430"/>
+      <testcase name="testGetAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="37" assertions="1" time="0.004553"/>
+      <testcase name="testListUsers" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="43" assertions="2" time="0.004711"/>
+      <testcase name="testGetUser" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="50" assertions="2" time="0.004752"/>
+      <testcase name="testCountUsers" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="57" assertions="2" time="0.004276"/>
+      <testcase name="testChangePassword" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="68" assertions="1" time="0.077783"/>
+      <testcase name="testUpdateAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="74" assertions="1" time="0.006359"/>
+      <testcase name="testSuccessUpdateAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="83" assertions="1" time="0.004544"/>
+      <testcase name="testDeleteAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="89" assertions="1" time="0.006341"/>
+      <testcase name="testSuccessDeleteAvatar" class="User_model_test" file="/var/www/dev/projects/number_station/application/tests/models/User_model_test.php" line="98" assertions="1" time="0.004855"/>
     </testsuite>
-    <testsuite name="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" tests="7" assertions="10" failures="0" errors="0" time="0.038497">
-      <testcase name="test_listUsers" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="15" assertions="2" time="0.004720"/>
-      <testcase name="test_getUser" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="22" assertions="1" time="0.004544"/>
-      <testcase name="testCountUsers" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="28" assertions="2" time="0.004308"/>
-      <testcase name="testSearchByUsername" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="35" assertions="1" time="0.005735"/>
-      <testcase name="testSearchByEmail" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="41" assertions="1" time="0.005107"/>
-      <testcase name="testUpdateUser" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="51" assertions="2" time="0.010129"/>
-      <testcase name="testDeleteUser" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="70" assertions="1" time="0.003954"/>
+    <testsuite name="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" tests="7" assertions="10" failures="0" errors="0" time="0.078497">
+      <testcase name="test_listUsers" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="15" assertions="2" time="0.004662"/>
+      <testcase name="test_getUser" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="22" assertions="1" time="0.004583"/>
+      <testcase name="testCountUsers" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="28" assertions="2" time="0.004287"/>
+      <testcase name="testSearchByUsername" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="35" assertions="1" time="0.004899"/>
+      <testcase name="testSearchByEmail" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="41" assertions="1" time="0.005190"/>
+      <testcase name="testUpdateUser" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="51" assertions="2" time="0.046057"/>
+      <testcase name="testDeleteUser" class="Users_model_test" file="/var/www/dev/projects/number_station/application/tests/models/Users_model_test.php" line="70" assertions="1" time="0.008819"/>
     </testsuite>
   </testsuite>
 </testsuites>

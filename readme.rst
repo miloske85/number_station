@@ -24,6 +24,8 @@ Installation
 
 To install this script you will need to set up Codeigniter 3 with `Ion Auth <https://github.com/benedmunds/CodeIgniter-Ion-Auth>`_ and then copy files from this project. Then go to example.com/install and follow instructions.
 
+Remove application/sql, application/tests and application/controllers/Install after the installation.
+
 *******
 License
 *******
