@@ -2,8 +2,6 @@
 
 class Auth extends CI_Controller {
 
-	protected $_viewData = array();
-
 	function __construct()
 	{
 		parent::__construct();
@@ -14,7 +12,7 @@ class Auth extends CI_Controller {
 		$this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
 
 		$this->lang->load('auth');
-
+		
 		//custom additions
 		$this->config->load('number_station', TRUE);
 		$this->setViewData();
@@ -303,8 +301,8 @@ class Auth extends CI_Controller {
 				$this->data['code'] = $code;
 
 				//render
+				//$this->_render_page('auth/reset_password', $this->data);
 				//custom addition - miloske85@hotmail.com
-				// $this->_render_page('auth/reset_password', $this->data);
 				$this->data = array_merge($this->data, $this->_viewData);
 				$this->loadViews('auth/reset_password', $this->data);
 			}
@@ -331,8 +329,9 @@ class Auth extends CI_Controller {
 					{
 						//if the password was successfully changed
 						$this->session->set_flashdata('message', $this->ion_auth->messages());
-						// redirect("auth/login", 'refresh');
+						//redirect("auth/login", 'refresh');
 						redirect("login", 'refresh'); //custom modification miloske85@hotmail.com
+
 					}
 					else
 					{
@@ -346,6 +345,7 @@ class Auth extends CI_Controller {
 		{
 			//if the code is invalid then send them back to the forgot password page
 			$this->session->set_flashdata('message', $this->ion_auth->errors());
+			//redirect("auth/forgot_password", 'refresh');
 			redirect("user/forgot_password", 'refresh'); //custom modification miloske85@hotmail.com
 		}
 	}
@@ -813,7 +813,8 @@ class Auth extends CI_Controller {
 
 		if (!$render) return $view_html;
 	}
-
+	
+	
 	/**
 	*	Custom addition miloske85@hotmail.com
 	*/
