@@ -30,4 +30,4 @@ Remove application/sql, application/tests and application/controllers/Install af
 License
 *******
 
-This project is released under `MIT license <https://github.com/miloske85/number_station/license.rst>`_. 
+This project is released under `MIT license <https://github.com/miloske85/number_station/blob/master/license.txt>`_. 
